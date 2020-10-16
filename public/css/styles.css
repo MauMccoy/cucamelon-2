@@ -34,24 +34,6 @@ body{
 /*
 * Social Links
 */
-.social-link {
-    width: 30px;
-    height: 30px;
-    border: 1px solid #ddd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #666;
-    border-radius: 50%;
-    transition: all 0.3s;
-    font-size: 0.9rem;
-}
-
-.social-link:hover, .social-link:focus {
-    background: #ddd;
-    text-decoration: none;
-    color: #555;
-}
 
 .pl-3, .px-3{
   padding-bottom: 1rem!important;
@@ -123,6 +105,14 @@ body{
  -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
  transform: scale(1.1);
+}
+
+.list-group a {
+  background-color: #ff8a80;
+  color: white;
+}
+.card-title a {
+  color:#ff8a80;
 }
 
 /*
